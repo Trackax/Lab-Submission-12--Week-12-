@@ -10,7 +10,7 @@ public class InventoryManager : MonoBehaviour
     void Start()
     {
         InitializeInventory();
-        Debug.Log("Initial Inventory:");
+        Debug.Log("Inventory:");
         PrintInventory();
         InventoryItem foundItem = LinearSearchByName("Item 3");
         if (foundItem != null)
@@ -21,7 +21,7 @@ public class InventoryManager : MonoBehaviour
         {
             Debug.Log("Item 'Item 3' not found.");
         }
-        Debug.Log("\nSorting inventory by ID for Binary Search...");
+        Debug.Log("Binary Search by ID");
         inventory = inventory.OrderBy(item => item.ID).ToList();
         PrintInventory();
         InventoryItem foundItemByID = BinarySearchByID(5);
@@ -33,7 +33,7 @@ public class InventoryManager : MonoBehaviour
         {
             Debug.Log("Item with ID 5 not found.");
         }
-        Debug.Log("\nSorting inventory by Value using QuickSort...");
+        Debug.Log("QuickSort by Value");
         QuickSortByValue(inventory, 0, inventory.Count - 1);
         PrintInventory();
     }
@@ -89,13 +89,13 @@ public class InventoryManager : MonoBehaviour
     {
         if (low < high)
         {
-            int pivotIndex = Partition(items, low, high);
+            int pivotIndex = Split(items, low, high);
             QuickSortByValue(items, low, pivotIndex - 1);
             QuickSortByValue(items, pivotIndex + 1, high);
         }
     }
 
-    private int Partition(List<InventoryItem> items, int low, int high)
+    private int Split(List<InventoryItem> items, int low, int high)
     {
         float pivot = items[high].Value;
         int i = (low - 1);

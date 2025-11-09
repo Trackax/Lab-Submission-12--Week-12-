@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{19EEFBDF-01AF-375A-A626-E7E83F8E66E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19EEFBDF-01AF-375A-A626-E7E83F8E66E9}|Assembly-CSharp.csproj|c:\\users\\donovan\\desktop\\lab-submission-12--week-12-\\lab submission 12 (week 12)\\assets\\scripts\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{19EEFBDF-01AF-375A-A626-E7E83F8E66E9}|Assembly-CSharp.csproj|C:\\Users\\Donovan\\Desktop\\Lab-Submission-12--Week-12-\\Lab Submission 12 (Week 12)\\assets\\scripts\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{19EEFBDF-01AF-375A-A626-E7E83F8E66E9}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventoryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,7 +28,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\InventoryManager.cs",
               "ToolTip": "C:\\Users\\Donovan\\Desktop\\Lab-Submission-12--Week-12-\\Lab Submission 12 (Week 12)\\Assets\\Scripts\\InventoryManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\InventoryManager.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAmwCIAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAewFcAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-05T21:43:02.493Z",
               "EditorCaption": ""
@@ -43,8 +43,7 @@
               "RelativeToolTip": "Assets\\Scripts\\InventoryItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T21:39:42.126Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-05T21:39:42.126Z"
             }
           ]
         }
